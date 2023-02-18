@@ -28,9 +28,7 @@
 #include "bluefruit_common.h"
 #include "utility/bonding.h"
 
-#ifdef NRF_CRYPTOCELL
 #include "Adafruit_nRFCrypto.h"
-#endif
 
 class BLESecurity
 {
